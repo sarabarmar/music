@@ -1,5 +1,5 @@
 * {
-    box-sizing: border-box;
+    box-sizing: content-box;
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -21,10 +21,16 @@ header h1 {
     font-weight: 200;
 
 }
+
 .content1 {
     display: flex;
     justify-content: space-evenly;
-    margin: 10% 20%;
+    align-items: center;
+    align-content: center;
+    padding: 9rem 20rem;
+    max-width: 100vw;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 .textpink {
@@ -33,18 +39,59 @@ header h1 {
     -webkit-background-clip: text;
     color: transparent;
     -webkit-text-fill-color: transparent;
-    font-size: 50px;
+    font-size: 70px;
+    line-height: 1.5;
 }
 
 
-.textblack{
+.textblack {
     color: black;
-    font-size: 50px;
+    font-size: 70px;
+    line-height: 1.5;
 }
 
-button{
+.text1 {
+    margin-right: 2rem;
+    font-size: 1rem;
+    line-height: 2;
+    margin-right: 10rem;
+}
+
+button {
     background-color: #FA4A54;
     color: white;
     border: none;
     border-radius: 100px;
+    padding: 15px 40px;
+}
+
+.image1 img {
+   width: 100;
+}
+.text2 {
+    margin-left: 2rem;
+    font-size: 1rem;
+    line-height: 2;
+    margin-left: 10rem;
+}
+
+.content2 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+    padding: 0rem 16rem;
+    max-width: 100vw;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.textrigth {
+    background-image: url(../assets/images/raptis.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    align-content: center;
 }
